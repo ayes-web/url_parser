@@ -1,0 +1,15 @@
+[package]
+name = "url_parser"
+description = "Rust macro that parses url arguments into a struct for easy usage"
+repository = "https://github.com/ayes-web/url_parser"
+authors = ["ayes-web <ayes2022@protonmail.com>"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+quote = "1.0.26"
+syn = { version = "2.0.15", features = ["full", "extra-traits"] }
+url = "2.3.1"
+
+[lib]
+proc-macro = true
